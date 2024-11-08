@@ -1,0 +1,44 @@
+/* Estilo do cabeçalho */
+ion-header {
+    background-color: #3880ff; /* Cor padrão do cabeçalho do Ionic */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+  }
+
+  
+  /* Estilo do conteúdo */
+  ion-content {
+    background-color: white; /* Cor de fundo padrão do conteúdo */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo dos itens */
+  ion-item {
+    margin-bottom: 25px; /* Aumenta o espaço entre os itens */
+    border-radius: 12px; /* Bordas arredondadas para cada item */
+    --background: transparent; /* Torna o fundo transparente para evitar conflitos */
+  }
+  
+  /* Estilo dos rótulos */
+  ion-label {
+    font-size: 1rem; /* Tamanho da fonte do rótulo */
+    color: #000; /* Cor do rótulo */
+    margin-bottom: 5px; /* Espaço entre o rótulo e o input */
+  }
+  
+  /* Estilo dos inputs */
+  ion-input {
+    font-size: 1rem; /* Tamanho da fonte do input */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #00bcd4; /* Borda azul ciano */
+    border-radius: 12px; /* Bordas arredondadas do input */
+    width: 100%; /* Faz o input ocupar toda a largura */
+    box-shadow: none; /* Remove qualquer sombra que possa interferir */
+  }
+  
+  /* Ajustes no ion-item para garantir a funcionalidade */
+  ion-item ion-label + ion-input {
+    margin-top: 5px; /* Espaço entre o rótulo e o input */
+  }
+  
